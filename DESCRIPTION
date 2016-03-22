@@ -1,0 +1,17 @@
+Package: pythonTestPackage
+Title: Sample R package with implementation in R
+Version: 0.0.0.9001
+Date: 2016-03-21
+Authors@R: c(person("Piotr", "Przetacznik", email = "piotr.przetacznik@gmail.com", role = c("aut", "cre")))
+Author: Piotr Przetacznik [aut, cre]
+Maintainer: Piotr Przetacznik <piotr.przetacznik@gmail.com>
+Description: Package provides example of R package with Python implementation.
+Depends:
+    R (>= 3.2.3)
+License: MIT + file LICENSE
+LazyData: true
+Imports: rPython
+Suggests:
+    covr,
+    testthat
+RoxygenNote: 5.0.1.9000
