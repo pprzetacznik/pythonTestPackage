@@ -4,6 +4,9 @@ cache: packages
 
 warnings_are_errors: true
 
+r_packages:
+  - rPython
+
 r_github_packages:
   - jimhester/covr
 
