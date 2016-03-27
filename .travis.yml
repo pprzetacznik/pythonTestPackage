@@ -1,9 +1,6 @@
 language: R
-sudo: required
+sudo: false
 cache: packages
-
-before_install:
-  - sudo apt-get install python2.7
 
 warnings_are_errors: true
 
