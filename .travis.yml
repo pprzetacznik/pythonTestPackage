@@ -2,6 +2,9 @@ language: R
 sudo: required
 cache: packages
 
+before_install:
+  - sudo apt-get install python2.7
+
 warnings_are_errors: true
 
 r_github_packages:
